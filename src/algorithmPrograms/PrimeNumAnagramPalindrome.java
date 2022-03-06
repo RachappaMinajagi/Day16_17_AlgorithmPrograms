@@ -28,7 +28,7 @@ public class PrimeNumAnagramPalindrome {
     }
 
     public static void printAllAnagram(ArrayList<Integer> arraylist, int size) {
-        for (int i = 0; i < size; i++) {
+        for (int i = 0; i < size; i++) { 
             for (int j = i + 1; j < size; j++) {
                 String str1 = Integer.toString(arraylist.get(i));
                 String str2 = Integer.toString(arraylist.get(j));
