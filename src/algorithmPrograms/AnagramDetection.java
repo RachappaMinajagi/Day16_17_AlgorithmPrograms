@@ -20,6 +20,7 @@ public class AnagramDetection {
 		String string1 = scanner.next();
 		System.out.println("Enter the String 2");
 		String string2 = scanner.next();
+		
 		AnagramDetection anagramDetection = new AnagramDetection();
 		if (anagramDetection.anagram(string1, string2)) {
 			System.out.println("Strings are anagram");
